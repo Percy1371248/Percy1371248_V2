@@ -1,0 +1,245 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, intial-scale+1.0, minimum-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+   <script type="text/javascript" src="JS/myScript.js"></script>
+
+   <title>Christmas</title>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Londrina+Outline&family=Mirza:wght@600&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+
+
+
+   <header>
+      <nav>
+         <img src="Assets/Images/logo.png">
+         <a data-x="about" href="#about">About</a>
+         <div class="dropdown">
+            <button class="dropbtn">Blog Posts
+               <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 1.html">The Liabrary of Babel</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 2.html">The World Wide Web</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 3.html">The medium is the message</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 4.html">UI/UX and why it matters</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 5.html">Digital Inequalities</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Blog 6.html">Ethical Internet</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/RW.html">Rationale</a>
+               <a href="https://Percy1371248.github.io/WSOA3029A_1371248/Wireframe-Style guide.html">Wireframe & Stlyle
+                  guide</a>
+            </div>
+         </div>
+         <div class="dropdown">
+            <button class="dropbtn">Portfolio
+               <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+               <a data-x="threeD" href="#threeD">3D Animation</a>
+               <a data-x="twoD" href="#twoD">2D Animation</a>
+               <a data-x="illustration" href="#illustration">Illustrations</a>
+            </div>
+         </div>
+         <a data-x="home" href="#home">Home</a>
+      </nav>
+   </header>
+
+
+
+
+   <div id="menu-bar">
+      <div id="menu" onclick="onClickMenu()">
+         <div id="bar1" class="bar"></div>
+         <div id="bar2" class="bar"></div>
+         <div id="bar3" class="bar"></div>
+      </div>
+
+      <ul class="Mobilenav" id="Mobilenav">
+         <li><a data-x="home" href="https://Percy1371248.github.io/WSOA3029A_1371248/index.html#Home">Home</a></li>
+         <li><a data-x="threeD" href="https://Percy1371248.github.io/WSOA3029A_1371248/index.html#threeD">Portfolio</a>
+         </li>
+         <li><a data-x="about" href="https://Percy1371248.github.io/WSOA3029A_1371248/index.html#about">About</a></li>
+         <li><a data-x="BlogPost" href="https://Percy1371248.github.io/WSOA3029A_1371248/Mobile blog.html">BlogPost</a>
+         </li>
+      </ul>
+   </div>
+
+   <button onclick="topFunction()" id="myTbtn" title="Go to top">Top</button>
+
+   <main>
+
+      <section id="home" data-index="0" class="home">
+
+         <div class="homeP">
+            <h1>HOME</h1>
+            <img src="Assets/Images/puss1.png">
+         </div>
+      </section>
+
+
+      <section id="threeD" data-index="1" class="threeD">
+
+         <div class="threeDP">
+
+            <a data-x="Chucks" href="#Chucks"><img src="Assets/Images/3D header/chucks rendered.png"></a>
+            <a data-x="Bugg" href="#Bugg"><img src="Assets/Images/3D header/Bugatti R.png"></a>
+            <a data-x="Wapp" href="#Wapp"><img src="Assets/Images/3D header/wap.png"></a>
+            <h1 id="3Danim">3D ANIMATION</h1>
+         </div>
+
+      </section>
+
+      <section id="Chucks" data-index="2" class="threeDContent">
+         <div class="threeDVid">
+            <h1 class="chucksH">Chuck taylor</h1>
+            <video controls>
+               <source src="Assets/Videos/chucks 0001-0120.mp4">
+            </video>
+            <figcaption class="chucksC">These are Chucks</figcaption>
+         </div>
+      </section>
+
+      <section id="Bugg" data-index="3" class="threeDContent">
+
+         <div class="threeDVid">
+            <h1 class="buggH">Bugatti</h1>
+            <video controls>
+               <source src="Assets/Videos/Bugatti10001-0200.mp4">
+            </video>
+            <figcaption class="buggC">Moves like the wind</figcaption>
+         </div>
+
+      </section>
+
+      <section id="Wapp" data-index="4" class="threeDContent">
+
+         <div class="threeDVid">
+            <h1 class="wapH">WAP</h1>
+            <video controls>
+               <source src="Assets/Videos/wap.mkv">
+            </video>
+            <figcaption class="wapC">Dripping greatness</figcaption>
+         </div>
+
+      </section>
+
+      <section id="twoD" data-index="5" class="twoD">
+
+         <div class="twoDP">
+            <a data-x="Gum" href="#Gum"><img src="Assets/Images/2D header/Daily gum.png"></a>
+            <a data-x="Larry" href="#Larry"><img src="Assets/Images/2D header/larry.png"></a>
+            <h1>2D ANIMATION</h1>
+         </div>
+
+      </section>
+
+      <section id="Gum" data-index="6" class="twoDContent">
+
+         <div class="twoDVid">
+            <h1 class="gumH">Daily Gum</h1>
+            <video controls>
+               <source src="Assets/Videos/Daily Gum Ad.mp4">
+            </video>
+            <figcaption class="gumC">Heritage day advert</figcaption>
+         </div>
+
+      </section>
+
+      <section id="Larry" data-index="7" class="twoDContent">
+
+         <div class="twoDVid">
+            <h1 class="larryH">Tales of Larry</h1>
+            <video controls>
+               <source src="Assets/Videos/Larry 2x.mp4">
+            </video>
+            <figcaption class="larryC">life of a Banana</figcaption>
+         </div>
+      </section>
+
+      <section id="illustration" data-index="8" class="illustration">
+
+         <div class="illustrationP">
+            <img src="Assets/Images/illustrationPH.png">
+            <h1>ILLUSTRATIONS</h1>
+         </div>
+
+      </section>
+
+      <section class="IllusContent">
+
+         <div id="Illuspic1">
+            <img src="Assets/Images/DIGITAL PAINITNG black woman 1st colour study.png">
+         </div>
+
+         <div id="Illuspic2">
+            <img src="Assets/Images/illus3.png">
+         </div>
+
+
+      </section>
+
+      <section id="about" data-index="9" class="about">
+         <div class="aboutP">
+            <img src="Assets/Images/me.png">
+            <h1>ABOUT</h1>
+         </div>
+         <aside class="aboutMe">
+            <h1 class="aboutmeHeader"> Percy Mthimkhulu</h1>
+            <p class="aboutmePa">
+               I am a Digital art Honours student at the university of the Witwatersrand.During my
+               time as a student I have
+               equipped myself with
+               knowledge within and
+               outside university that
+               have made me versatile in
+               my field and anything else
+               I set my mind to.
+            </p>
+            <p class="aboutmePa">
+               I am interested in any field that allows
+               me to be creative and put my skill set
+               to great use. I am particular interested
+               in advertising but also Animation, 3D
+               Modeling,Visual effects, UI/UX design
+               and Web Design.
+            </p>
+            <p class="aboutmePa">
+               WORKING PROGRESS MORE TO FOLLOW...
+            </p>
+
+         </aside>
+
+      </section>
+   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
