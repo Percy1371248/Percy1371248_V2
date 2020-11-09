@@ -6,7 +6,7 @@
    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
    <script type="text/javascript" src="JS/myScript.js"></script>
 
-   <title>Version 2 Home</title>
+   <title>Illustration_V2</title>
    <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Londrina+Outline&family=Mirza:wght@600&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet">
@@ -74,52 +74,52 @@
 
    <main>
 
-      <section id="home" data-index="0" class="home">
+    
+      <section id="illustration" data-index="8" class="illustration">
 
-         
-         
-            <a class="threeD-LinkPage" href=""> 
-           
-               <figure class="threeD-LinkImg">
-
-                    <h1 class="link-3DH">3D Animation</h1>
-                  <img src="Assets/Images/3D header/chucks renderedLink.png">
-
-               </figure>
-             </a>
-
-
-      
-
-            <a class="twoD-LinkPage" href=""> 
-            
-               <figure class="twoD-LinkImg">
-
-                  <h1 class="link-2DH">2D Animation</h1>
-
-                  <img src="Assets/Images/2D header/Daily gumLink.png">
-
-               </figure>
-             </a>
-   
-
-            <a class="illustration-LinkPage" href=""> 
-            
-
-               <figure class="illustration-LinkImg">
-
-                 <h1 class="link-IllusH">Illustrations</h1>
-                  <img src="Assets/Images/illus4.png">
-
-               </figure>
-             </a>
-      
-
+         <div class="illustrationP">
+            <img src="Assets/Images/illustrationPH.png">
+            <h1>ILLUSTRATIONS</h1>
+         </div>
 
       </section>
 
+     <section class="illusGallery">
 
-     
+            <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="Assets/Images/DIGITAL PAINITNG black woman 1st colour study.png" alt="Black Woman" onclick="myFunction(this);">
+  </div>
+
+  <div class="column">
+    <img src="Assets/Images/illus3.png"  alt="self porttrait 1" onclick="myFunction(this);">
+  </div>
+
+  <div class="column">
+    <img  src="Assets/Images/illus4.png"  alt="self porttrait 2" onclick="myFunction(this);">
+  </div>
+
+  <div class="column">
+    <img  src="Assets/Images/illus5.png"  alt="self porttrait 3" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+ 
+    </section>
+
+      
    </main>
 
 

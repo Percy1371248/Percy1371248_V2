@@ -88,10 +88,12 @@ nav img{
     /* //PAGE SECTIONS and Media Query CSS//*/  
     
  section{
-     min-height:100vh;
-     display: flex;
-     background: radial-gradient( #641468, black);
- }
+    background: radial-gradient( #641468, black);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 
  section:hover{
     background: radial-gradient( #9c017df3, black);
@@ -507,20 +509,113 @@ h2.blogHeader2{
 }
     /* //End of Media query 1//*/
 
+ .threeD-LinkPage{
+    text-decoration: none;
+   
 
-
-.homeP{
-    margin-top: 5%;
-    margin-left: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+}
+ .twoD-LinkPage{
+    text-decoration: none;
     
+
+}
+.illustration-LinkPage{
+    text-decoration: none;
+    
+
 }
 
+.threeD-LinkImg:hover, .twoD-LinkImg:hover, .illustration-LinkImg:hover {
+    transform: scale(1.1);
+
+} 
+
+
+.threeD-LinkImg{
+    display: grid;
+   /* grid-template-columns: 43vh;
+    grid-template-rows: 49vh 28vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);*/
+    transition: 0.5s ease; 
+    margin-top: -20%;
+    margin-left: 20%;
+   
+}
+.threeD-LinkImg img{
+     width: 25vw;
+     height: 38vw;
+    border-radius: 10px;
+
+}
+
+.twoD-LinkImg{
+    display: grid;
+    transition: 0.5s ease;
+    margin-top: -20%;
+    margin-left: 47%;
+}
+.twoD-LinkImg img{
+    width: 25vw;
+    height: 38vw;
+
+    border-radius: 10px;
+}
+
+.illustration-LinkImg{
+    display: grid;
+    transition: 0.5s ease;
+    margin-top: -20%;
+    margin-left: 77%; 
+}
+.illustration-LinkImg img{
+    width: 25vw;
+    height: 38vw;
+    border-radius: 10px;
+}
+
+ .link-3DH{
+    
+    color: white;
+    font-size: 4vw;
+    font-family: 'Anton', sans-serif;
+    z-index: 4;
+    top: 47%;
+    margin-left: 8%;
+    position: sticky;
+ 
+ }
+ .link-2DH{
+    
+    color: red;
+    font-size: 4vw;
+    font-family: 'Anton', sans-serif;
+    z-index: 4;
+    top: 47%;
+    margin-left: 8%;
+    position: sticky;
+ 
+ }
+.link-illusH{
+    
+    color: white;
+    font-size: 4vw;
+    font-family: 'Anton', sans-serif;
+    z-index: 4;
+    top: 47%;
+    margin-left: 13%;
+    position: sticky;
+ 
+ }
+
+
+
+
+
+
+
+
  .threeDP{
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: -2%;
     display: flex;
     flex-wrap: wrap;
@@ -531,7 +626,7 @@ h2.blogHeader2{
 }
 .twoDP{
     margin-top: 1%;
-    margin-left: 0%;
+    margin-left: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -566,9 +661,10 @@ h2.blogHeader2{
 }
 .aboutMe{
     background-color: black;
-    width: 65vw;
+    width: 62vw;
     height: 61vw;
-    margin: 3%
+    margin-top: 6%;
+    margin-left: 3%;
 
 }
 
@@ -599,7 +695,7 @@ h2.blogHeader2{
 .threeDP h1{
 
     color: white;
-    font-size: 12vw;
+    font-size: 9vw;
     margin-left: 4%;
     font-family: 'Anton', sans-serif;
     position: absolute;
@@ -607,9 +703,8 @@ h2.blogHeader2{
 }
 .twoDP h1{
    
-    color: white;
-    font-size: 12vw;
-    margin-top: 0%;
+    color: red;
+    font-size: 9vw;
     font-family: 'Anton', sans-serif;
     position: absolute;
 }
@@ -624,7 +719,7 @@ h2.blogHeader2{
     
     color: white;
     font-size: 6vw;
-    margin-top: -149%;
+    margin-top: -156%;
     font-family: 'Anton', sans-serif;
 }
 
@@ -648,14 +743,10 @@ h2.blogHeader2{
 }
 
 /* //HEADER PAGE IMAGES CSS//*/
-.homeP img{
-    width: 60vw;
-    position: absolute;
-}
  
 .threeDP img{
     transition: transform .2s;
-    width: 50vw;
+    width: 36vw;
     
 }
 
@@ -666,7 +757,7 @@ h2.blogHeader2{
 
 .twoDP img{
     transition: transform .2s;
-    width: 50vw;
+    width: 46vw;
 }
 
 .twoDP img:hover{
@@ -677,8 +768,8 @@ h2.blogHeader2{
 
 .illustrationP img{
 
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -690,109 +781,174 @@ h2.blogHeader2{
 /* //PAGE CONTENT CSS//*/
 
 /*3D text*/
-.threeDVid video{
+.threeDContent video{
     margin-top: 0%;
     margin-left: 20%;
-    width: 67vw;
-    border-radius: 67px;
+    width: 57vw;
+    border-radius: 67px
  
 
 }
 .chucksH{
     color: white;
-    font-size: 6vw;
-    margin-left: 50%;
+    font-size: 4vw;
+    margin-left: 39%;
+    margin-top: -38%;
+    position: absolute;
     font-family: 'Mirza', cursive;
 }
 .chucksC{
     color: white;
-    font-size: 3vw;
-    margin-left: 54%;
-    margin-top: 1%;
+    font-size: 2vw;
+    margin-left: -62%;
+    margin-top: 41%;
 }
 
 .BuggH{
-    color: white;
-    font-size: 6vw;
-    margin-left: 57%;
+      color: white;
+    font-size: 4vw;
+    margin-left: 43%;
+    margin-top: -38%;
+    position: absolute;
     font-family: 'Mirza', cursive;
 }
 .buggC{
     color: white;
-    font-size: 3vw;
-    margin-left: 50%;
-    margin-top: 1%;
+    font-size: 2vw;
+    margin-left: -54%;
+    margin-top: 41%;
 }
 .wapH{
-    color: white;
-    font-size: 6vw;
-    margin-left: 61%;
+     color: white;
+    font-size: 4vw;
+    margin-left: 46%;
+    margin-top: -38%;
+    position: absolute;
     font-family: 'Mirza', cursive;
 }
 .wapC{
     color: white;
-    font-size: 3vw;
-    margin-left: 50%;
-    margin-top: 1%;
+    font-size: 2vw;
+    margin-left: -52%;
+    margin-top: 41%;
 }
 
 
 /*2D text*/
-.twoDVid video{
+.twoDContent video{
     margin-top: 0%;
     margin-left: 20%;
-    width: 67vw;
-    border-radius: 67px;
+    width: 57vw;
+    border-radius: 67px
+ 
  
 }
 
 .gumH{
-    color: white;
-    font-size: 6vw;
-    margin-left: 50%;
+     color: white;
+    font-size: 4vw;
+    margin-left: 39%;
+    margin-top: -38%;
+    position: absolute;
     font-family: 'Mirza', cursive;
 }
+
 .gumC{
     color: white;
-    font-size: 3vw;
-    margin-left: 50%;
-    margin-top: 1%;
+    font-size: 2vw;
+    margin-left: -71%;
+    margin-top: 41%;
+    text-align: center;
 }
-
 
 .larryH{
     
     color: white;
-    font-size: 6vw;
-    margin-left: 50%;
+    font-size: 4vw;
+    margin-left: 39%;
+    margin-top: -38%;
+    position: absolute;
     font-family: 'Mirza', cursive;
 
 }
+
 .larryC{
-    color: white;
-    font-size: 3vw;
-    margin-left: 54%;
-    margin-top: 1%;
+   color: white;
+    font-size: 2vw;
+    margin-left: -35%;
+    margin-top: 41%;
+    text-align: center;
 
 }
 
 
 /*Illustration*/
 
-#Illuspic1 img{
-    width: 39vw;
-    height: 59vw;
-    margin-left: 3rem;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+.column {
+     float: left;
+    padding: 2.2vw;
 }
-#Illuspic2 img{
-    margin-left: 7rem;
-    height: 59vw;
-    width: 45vw;
-    margin-top: 4rem;
 
+/* Style the images inside the grid */
+.column img {
+  transition: transform .2s;
+    cursor: pointer;
+    width: 20vw;
+    height: 30vw;
+
+  
 }
+
+.column img:hover {
+   transform: scale(1.1);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: sticky;
+    margin-left: -75%;
+    margin-top: 0%;
+    width: 50vw;
+    height: 50vw;
+    background-color: #000000e3;
+    z-index: 5;
+    display: none;
+}
+
+#expandedImg{
+    width: 30vw;
+    height: 40vw;
+    margin-left: 22%;
+    margin-top: 13%;
+}
+
+
+
+/* Expanding image text */
+#imgtext {
+   position: absolute;
+    bottom: 1%;
+    margin-left: 36%;
+    color: white;
+    font-size: 2.5vw;
+}
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 89%;
+    color: #fa0000;
+    font-size: 7vw;
+    cursor: pointer;
+}
+
 
 /* //BLOG PAGES content CSS//*/
 .blogHeader{
