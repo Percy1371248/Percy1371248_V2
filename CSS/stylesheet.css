@@ -11,6 +11,44 @@ html {
   }
 
 /* //Desktop Nav Bar CSS//*/
+
+/*Home page Nav*/
+.HomeNav {
+    margin-top: 35%;
+    margin-left: 6%;
+    position: absolute;
+    z-index: 20;
+
+    
+}
+.HomeNav a{
+    float: right;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    padding: 1vw 10vw;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s ease; 
+}
+
+.HomeNav a:hover{
+    transform: scale(1.1);
+    color: #ff3dbe;
+    
+ }
+
+ .HomeLogo img{
+    width: 50vw;
+    margin-top: -2%;
+    margin-left: 25%;
+    position: absolute;
+    z-index: 10;
+    
+ }
+
+/*Home page Nav*/
+
 nav{
     width: 100%;
     height: 3.7vw;
@@ -29,11 +67,24 @@ nav a{
     text-decoration: none;
     border-radius:10px;
 }
-nav img{
-    margin-top: -8%;
-    width: 21vw;
+.myLogo{
 
+    margin-top: -12%;
+    margin-right: 72%;
+    transition: 0.5s ease;
 }
+
+.myLogo img{
+    width: 25vw;
+    height: 20vw;
+}
+
+.myLogo:hover{
+    background-color:#ffffff00;
+    transform: scale(1.05);
+ }
+
+
 .dropdown {
     float:right;
     overflow: hidden;
@@ -49,10 +100,13 @@ nav img{
     margin: 0;
     border-radius:10px;
   }
+
   nav a:hover, .dropdown:hover .dropbtn{
     background-color:#641468;
     
  }
+
+ 
 
    .dropdown-content {
         display: none;
@@ -97,6 +151,11 @@ nav img{
  section:hover{
     background: radial-gradient( #9c017df3, black);
  }
+
+ .HomeP:hover{
+    background: radial-gradient( #641468, black);
+ }
+
       
 /*// Media query 1//*/
  @media screen and (max-width:720px){
@@ -585,6 +644,24 @@ h2.blogHeader2{
 }
     /* //End of Media query 1//*/
 
+
+
+    #myVideo {
+        position: absolute;
+        margin-top: 1%;
+        width: 100%;
+        height: 88%;
+        border-radius: 106px;
+        mix-blend-mode: overlay;
+      }
+
+
+
+
+
+
+
+
  .threeD-LinkPage{
     text-decoration: none;
    
@@ -757,14 +834,7 @@ h2.blogHeader2{
 
   /* //PAGE HEADINGS CSS//*/
 
-.homeP h1{
- 
-    color: white;
-    font-size: 9vw;
-    font-family: 'Anton', sans-serif;
-    z-index: 4;
 
-}
 .threeDP h1{
 
     color: white;
