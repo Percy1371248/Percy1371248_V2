@@ -261,16 +261,6 @@ h1.link-illusH{
  
  }
 
-
-
-
-
-
-
-
-
-
-
    div.threeDP{
     margin-top: 20%;
     margin-left: 1%;
@@ -921,6 +911,44 @@ h2.blogHeader2{
     width: 100%;
   
 }
+
+/*Blog Header page*/
+.mBlog li{
+    margin-top: 9%;
+    margin-left: 27%;
+}
+
+.mBlog a{
+    display: block;
+    background-color: #ff00d1;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    border-radius: 23px;
+    width: 123%;
+    height: 5rem;
+    margin-top: 3%;
+    transition: 0.5s ease;
+}
+
+.mBlogH{
+
+    color: rgb(255, 255, 255);
+    margin-top: -46%;
+    margin-left: 39%;
+    font-size: 4vw;
+    text-align: center;
+    position: absolute;
+}
+
+.mBlog a:hover{
+    transform: scale(1.1);
+
+}
+
+
 /* //PAGE CONTENT CSS//*/
 
 /*3D text*/
