@@ -46,12 +46,11 @@ html {
     
  }
  
- #myVideo {
+ .myVideo {
     position: absolute;
     margin-top: 1%;
     width: 100%;
     height: 88%;
-    border-radius: 106px;
     mix-blend-mode: overlay;
   }
 
@@ -173,6 +172,7 @@ nav a{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -187,99 +187,35 @@ nav a{
       
 /* //Portfolio Header page CSS//*/  
 
-
- .threeD-LinkPage{
+ .PLinkPage{
     text-decoration: none;
-   
+ }
 
-}
- .twoD-LinkPage{
-    text-decoration: none;
-    
-
-}
-.illustration-LinkPage{
-    text-decoration: none;
-    
-
+.PLinkImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    float: left;
+    padding: 1vw 3vw;  
 }
 
-.threeD-LinkImg:hover, .twoD-LinkImg:hover, .illustration-LinkImg:hover {
+.PLinkImgs:hover {
     transform: scale(1.1);
 
 } 
-
-
-.threeD-LinkImg{
-    display: grid;
-    transition: 0.5s ease; 
-    margin-top: -20%;
-    margin-left: 20%;
-   
-}
-.threeD-LinkImg img{
+.PLinkImgs img{
      width: 25vw;
      height: 38vw;
     border-radius: 10px;
-
 }
 
-.twoD-LinkImg{
-    display: grid;
-    transition: 0.5s ease;
-    margin-top: -20%;
-    margin-left: 47%;
-}
-.twoD-LinkImg img{
-    width: 25vw;
-    height: 38vw;
-
-    border-radius: 10px;
-}
-
-.illustration-LinkImg{
-    display: grid;
-    transition: 0.5s ease;
-    margin-top: -20%;
-    margin-left: 77%; 
-}
-.illustration-LinkImg img{
-    width: 25vw;
-    height: 38vw;
-    border-radius: 10px;
-}
-
- .link-3DH{
+ .Plink-Headers{
     
     color: white;
     font-size: 4vw;
     font-family: 'Anton', sans-serif;
-    z-index: 4;
-    top: 47%;
-    margin-left: 8%;
-    position: sticky;
- 
- }
- .link-2DH{
-    
-    color: red;
-    font-size: 4vw;
-    font-family: 'Anton', sans-serif;
-    z-index: 4;
-    top: 47%;
-    margin-left: 8%;
-    position: sticky;
- 
- }
-.link-illusH{
-    
-    color: white;
-    font-size: 4vw;
-    font-family: 'Anton', sans-serif;
-    z-index: 4;
-    top: 47%;
-    margin-left: 13%;
-    position: sticky;
+    position: absolute;
  
  }
 
@@ -289,8 +225,6 @@ nav a{
 /* //3D ,2D Animation, Ilustration and blog Header sections CSS//*/  
 
  .threeDP{
-    margin-top: 6%;
-    margin-left: -2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -299,8 +233,6 @@ nav a{
   
 }
 .twoDP{
-    margin-top: 1%;
-    margin-left: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -309,15 +241,14 @@ nav a{
 
 }
 .illustrationP{
-    margin-top: 5%;
-    margin-left: 28%;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 40vw;
     height: 40vw;
-    background-color: #109b00;
+   
     
 }
 .aboutP{
@@ -328,8 +259,6 @@ nav a{
     width: 30vw;
     height: 40vw;
     background-color: #ff3dbe;
-    margin-top: 10%;
-    margin-left: 1%;
     
     
 }
@@ -345,7 +274,6 @@ nav a{
 .BlogPage{
     
     margin-top: 6%;
-    margin-left: 12%;
     width: 76vw;
     height: inherit;
     background-color: black;
@@ -375,14 +303,15 @@ nav a{
 
     color: white;
     font-size: 9vw;
-    margin-top: -115%;
+    position: absolute;
     font-family: 'Anton', sans-serif;
 }
 .aboutP h1{
     
     color: white;
     font-size: 6vw;
-    margin-top: -156%;
+    margin-top: -8%;
+    position: absolute;
     font-family: 'Anton', sans-serif;
 }
 
@@ -410,6 +339,7 @@ nav a{
 .threeDP img{
     transition: transform .2s;
     width: 36vw;
+    border-radius: 10px;
     
 }
 
@@ -417,10 +347,11 @@ nav a{
     transform: scale(1.1);
 }
 
-
 .twoDP img{
     transition: transform .2s;
     width: 46vw;
+    border-radius: 10px;
+    
 }
 
 .twoDP img:hover{
@@ -441,8 +372,7 @@ nav a{
 
 /*Blog Header page*/
 .mBlog li{
-    margin-top: 9%;
-    margin-left: 27%;
+    margin-top: 7%;
 }
 
 .mBlog a{
@@ -454,20 +384,16 @@ nav a{
     padding: 1rem 4rem;
     text-decoration: none;
     border-radius: 23px;
-    width: 123%;
+    width: 100%;
     height: 5rem;
     margin-top: 3%;
     transition: 0.5s ease;
 }
-
 .mBlogH{
-
-    color: rgb(255, 255, 255);
-    margin-top: -46%;
-    margin-left: 39%;
-    font-size: 4vw;
-    text-align: center;
     position: absolute;
+    font-size: 4vw;
+    color: white;
+    margin-bottom: 46%;
 }
 
 .mBlog a:hover{
@@ -481,105 +407,48 @@ nav a{
 
 /*3D video and text*/
 .threeDContent video{
-    margin-top: 0%;
-    margin-left: 20%;
     width: 57vw;
-    border-radius: 67px
+    border-radius: 67px;
  
 
 }
-.chucksH{
+.threeDHeaders{
     color: white;
     font-size: 4vw;
-    margin-left: 39%;
-    margin-top: -38%;
+    margin-bottom: 39%;
     position: absolute;
     font-family: 'Mirza', cursive;
 }
-.chucksC{
+.threeDCap{
     color: white;
     font-size: 2vw;
-    margin-left: -62%;
     margin-top: 41%;
-}
-
-.BuggH{
-      color: white;
-    font-size: 4vw;
-    margin-left: 43%;
-    margin-top: -38%;
     position: absolute;
-    font-family: 'Mirza', cursive;
-}
-.buggC{
-    color: white;
-    font-size: 2vw;
-    margin-left: -54%;
-    margin-top: 41%;
-}
-.wapH{
-     color: white;
-    font-size: 4vw;
-    margin-left: 46%;
-    margin-top: -38%;
-    position: absolute;
-    font-family: 'Mirza', cursive;
-}
-.wapC{
-    color: white;
-    font-size: 2vw;
-    margin-left: -52%;
-    margin-top: 41%;
 }
 
 
 /*2D video and text*/
 .twoDContent video{
-    margin-top: 0%;
-    margin-left: 20%;
     width: 57vw;
-    border-radius: 67px
+    border-radius: 67px;
  
  
 }
 
-.gumH{
-     color: white;
+.twoDHeaders{
+    color: white;
     font-size: 4vw;
-    margin-left: 39%;
-    margin-top: -38%;
+    margin-bottom: 39%;
     position: absolute;
     font-family: 'Mirza', cursive;
 }
 
-.gumC{
+.twoDCap{
     color: white;
     font-size: 2vw;
-    margin-left: -71%;
     margin-top: 41%;
-    text-align: center;
-}
-
-.larryH{
-    
-    color: white;
-    font-size: 4vw;
-    margin-left: 39%;
-    margin-top: -38%;
     position: absolute;
-    font-family: 'Mirza', cursive;
-
 }
-
-.larryC{
-   color: white;
-    font-size: 2vw;
-    margin-left: -35%;
-    margin-top: 41%;
-    text-align: center;
-
-}
-
 
 /*Illustration*/
 
@@ -593,6 +462,7 @@ nav a{
     cursor: pointer;
     width: 20vw;
     height: 30vw;
+    border-radius: 10px;
 
   
 }
@@ -608,14 +478,13 @@ nav a{
 }
 
 .container {
-    position: sticky;
-    margin-left: -75%;
-    margin-top: 0%;
+    position: absolute;
     width: 50vw;
     height: 50vw;
     background-color: #000000e3;
     z-index: 5;
     display: none;
+    border-radius: 60px;
 }
 
 #expandedImg{
@@ -694,316 +563,19 @@ margin-top: 2%;
 
 
 
-/*// Media query 1//*/
+/*// Media query 1 Tablet//*/
 @media screen and (max-width:768px){
-    section{
-     min-height:177vw;
-     display: grid;
-     }
-     /*Nav responsive*/
-     nav{
-       width: 100%;
-       height: 16vw;
-       background-color:rgba(0, 0, 0, 0.884);
-       box-shadow: 0px 3.5px 10px rgba(0, 0, 0, 0.5);
-       position: fixed;
-       z-index: 20;
-   
-   }
-   nav a{
-       display: none;
-   }
-   .dropdown .dropbtn { 
-    display: none;
-     }
-
-    .myLogo{
-   width: 65vw;
-   margin-left: 18%;
-   margin-top: -22%;
-   
-
-   }
-   /*Header Pages responsive*/
-
-/*Portfolio page */
-figure.threeD-LinkImg{
-   display: grid;
-   transition: 0.5s ease;
-   margin-top: 5%;
-   margin-left: 31%;
-  
-  }
-figure.threeD-LinkImg img{
-  width: 40vw;
-   height: 50vw;
-   border-radius: 10px;
-}
-
-figure.twoD-LinkImg{
-   display: grid;
-   transition: 0.5s ease;
-   margin-top: -11%;
-   margin-left: 31%;
-}
-figure.twoD-LinkImg img{
-   width: 40vw;
-   height: 50vw;
-   border-radius: 10px;
-
-}
-
-figure.illustration-LinkImg{
-   display: grid;
-   transition: 0.5s ease;
-   margin-top: -10%;
-   margin-left: 31%;
-}
-figure.illustration-LinkImg img{
-   width: 40vw;
-   height: 50vw;
-   border-radius: 10px;
-
-}
-
-h1.link-3DH{
-   
-   color: white;
-   font-size: 7vw;
-   font-family: 'Anton', sans-serif;
-   z-index: 4;
-   top: 23%;
-   margin-left: 3%;
-   position: sticky;
-}
-h1.link-2DH{
-   
-  color: red;
-   font-size: 7vw;
-   font-family: 'Anton', sans-serif;
-   z-index: 4;
-   top: 52%;
-   margin-left: 3%;
-   position: sticky;
-
-}
-h1.link-illusH{
-   
-   color: white;
-   font-size: 7vw;
-   font-family: 'Anton', sans-serif;
-   z-index: 4;
-   top: 81%;
-   margin-left: 6%;
-   position: sticky;
-
-}
-
-/*sections */
-
-  div.threeDP{
-   margin-top: 20%;
-   margin-left: 1%;
-   height: 117vw;
-
-  }
-
-  div.twoDP{
-   margin-top: 30%;
-   margin-left: 0%;
-   height: 117vw;
-  }
-
-  div.illustrationP{
-   margin-top: 26%;
-   margin-left: 14%;
-   width: 73vw;
-   height: 117vw;
-  }
-
-  div.aboutP{
-
-   margin-top: 15%;
-   margin-left: 19%;
-   width: 63vw;
-   height: 80vw;
-
-  }
-
-  aside.aboutMe{
-   background-color: black;
-   width: 91vw;
-   height: 77vw;
-   margin-top: 2%;
-
-}
-div.homeP img{
-   width: 100vw;
-}
-
-  div.threeDP img{
-   width: 95vw;
-}
-
-div.twoDP img{
-
-   width: 95vw;
-}
-
-div.illustrationP img{
-
-   width: 95vw;
-   height: 100vw;
-}
-
-div.homeP h1{
-
-   
-   font-size: 9vw;
-}
-
-div.threeDP h1{
-
-   font-size: 17vw;
-   margin-top: 45%;
-   margin-left: 0%;
-  
-}
-
-div.twoDP h1{
-  
-
-   font-size: 14vw;
-
-}
-
-div.illustrationP h1{
-
-
-   font-size: 12vw;
-   margin-top: -152%;
-}
-
-div.aboutP h1{
-   
-   font-size: 9vw;
-}
-h1.aboutmeHeader{
-   color: rgb(255, 255, 255);
-   margin-top: 1%;
-   font-size: 6vw;
-   text-align: center;
-   
-}
-
-p.aboutmePa{
-
-   color: rgb(255, 255, 255);
-   text-align: justify;
-   margin: 2% 2% 2% 2%;
-   font-size: 3.5vw;
-   line-height: 1.5;
-   font-family: 'Montserrat', sans-serif;
-
-}
-
-/*Content pages responsive*/
-
-div.threeDVid video{
-   margin-top: 15%;
-   margin-left: 0%;
-   width: 100vw;
-
-}
-
-h1.chucksH{
-   color: white;
-   font-size: 14vw;
-   margin-left: 15%;
-   margin-top: 28%;
-}
-figcaption.chucksC{
-   color: white;
-   font-size: 7vw;
-   margin-left: 22%;
-   margin-top: 20%;
-}
-h1.BuggH{
-   color: white;
-   font-size: 14vw;
-   margin-left: 31%;
-   margin-top: 28%;
-}
-
-figcaption.buggC{
-   color: white;
-   font-size: 7vw;
-   margin-left: 18%;
-   margin-top: 20%;
-}
-h1.wapH{
-   color: white;
-   font-size: 14vw;
-   margin-left: 37%;
-   margin-top: 28%
-}
-figcaption.wapC{
-   color: white;
-   font-size: 7vw;
-   margin-left: 20%;
-   margin-top: 20%;
-}
-
-
-div.twoDVid video{
-   margin-top: 15%;
-   margin-left: 0%;
-   width: 100vw;
-}
-
-
-h1.gumH{
-   color: white;
-   font-size: 14vw;
-   margin-left: 23%;
-   margin-top: 28%;
-}
-figcaption.gumC{
-   color: white;
-   font-size: 7vw;
-   margin-left: 20%;
-   margin-top: 20%
-}
-
-h1.larryH{
-   
-   color: white;
-   font-size: 14vw;
-   margin-left: 13%;
-   margin-top: 28%;
-
-}
-figcaption.larryC{
-   color: white;
-   font-size: 7vw;
-   margin-left: 24%;
-   margin-top: 20%;
-
-}
-
-div#Illuspic1 img{
-       margin-left: 0rem;
-       width: 100%;
-       height: 107vw;
-   
-
-}
-
-div#Illuspic2 img{
-   margin-left: 0rem;
-   height: 123vw;
-   width: 100%;
-}
+    nav{
+        width: 100%;
+        height: 16vw;
+    
+    }
+    nav a{
+        display: none;
+    }
+    .dropdown .dropbtn { 
+     display: none;
+      }
 
   /* Mobile Menu*/
   #menu{
@@ -1077,100 +649,7 @@ div#Illuspic2 img{
 }
  /* Mobile Menu*/
 
-/* Blog Pages responsive*/
-
-section.BlogPage{
-   
-   margin-top: 2%;
-   margin-left: 4%;
-   width: 93vw;
-   background-color: black;
-   border-radius: 10px;
-   flex-direction: column;
-   height: initial;
-   
-}
-
- .mBlogP{
-   
-       margin-left: 10%;
-       width: 92vw;
-       height: inherit;
-       flex-direction: column;
-   
-}
-.mBlogP li{
-   margin-top: -6%;
-}
-
-.mBlogP a{
-   display: block;
-   background-color: #f808c9f3;
-   font-size: 5.5vw;
-   color: white;
-   text-align: center;
-   padding: 5vw 0vw;
-   text-decoration: none;
-   border-radius: 68px;
-   width: 86%;
-   height: 4rem;
-   margin-top: 2%;
-}
-
-.mBlogH{
-
-   color: rgb(255, 255, 255);
-   margin-top: 20%;
-   margin-left:-13%;
-   font-size: 9vw;
-   text-align: center;
 
 }
 
-
-h1.blogHeader {
-   color: rgb(255, 255, 255);
-   margin-top: 19%;
-   font-size: 6vw;
-   text-align: center;
-}
-
-p.blogPa{
-   color: rgb(255, 255, 255);
-   text-align: justify;
-   margin: 1% 1% 1% 1%;
-   font-size: 3.5vw;
-
-}
-
-h2.blogHeader2{
-   color: rgb(255, 255, 255);
-   margin-top: 1%;
-   font-size: 4vw;
-   text-align: center;
-}
-
-
-/*Wire Frame and Style guide*/
-.wFramePics{
-
-   width: 100%;
-   height: initial;
-   display: block;
-}
-.wFramePics img{
-   width: 80vw;
-   margin-top: 2%;
-   margin-left: 9%;
-}
-.wFramePics h1{
-   color: white;
-   font-size: 6vw;
-   text-align: center;
-   margin-top: 4%;
-}
-
-
-}
-
-/* //End of Media query 1//*/
+/* //End of Media query 1 Tablet//*/
