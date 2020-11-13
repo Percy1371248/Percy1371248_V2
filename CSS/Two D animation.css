@@ -56,7 +56,7 @@
  
 
     .twoDP{ 
-        margin-top:20%;
+        margin-top:10%;
     }
     .twoDP h1{
 
@@ -65,8 +65,9 @@
     }
     
     .twoDP img{
-        width: 95vw;
+        width: 85vw;
         border-radius: 6px;
+        margin-top: 5%;
         
     }
     
@@ -92,7 +93,7 @@
 @media screen and (max-width:1024px) and (min-width:720px){
 
     .twoDP{ 
-        margin-top:20%;
+        margin-top:13%;
     }
     .twoDP h1{
 
@@ -101,8 +102,10 @@
     }
     
     .twoDP img{
-        width: 95vw;
+        width: 85vw;
         border-radius: 6px;
+        margin-top: 5%;
+    
         
     }
 

@@ -18,6 +18,10 @@ html {
     margin-left: 6%;
     position: absolute;
     z-index: 20;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 
     
 }
@@ -68,7 +72,7 @@ nav{
     z-index: 20;
     
 }
-nav a{
+nav li a{
     float: right;
     font-size: 1.5vw;
     color: white;
@@ -79,14 +83,13 @@ nav a{
 }
 .myLogo{
 
-    margin-top: -12%;
-    margin-right: 72%;
+   margin-left: 1%;
+   position: absolute;
     transition: 0.5s ease;
 }
 
 .myLogo img{
-    width: 25vw;
-    height: 20vw;
+    width: 16vw;
 }
 
 .myLogo:hover{
@@ -193,32 +196,28 @@ nav a{
 
 /*// Media query 1 Tablet//*/
 @media screen and (max-width:720px){
+   nav{  
+      height: 18vw;
+  }
 
+  nav li{
+     display: none;
+  }
 
+  .myLogo{
+   margin-top: 2%;
+   margin-left: 20%;
 
-    nav{
-        height: 16vw;  
-    }
+  }
 
-    nav li{
-        display: none;
-    }
+  .myLogo img{
+   width: 50vw;
+  
+  }
 
-
-    .myLogo{
-        margin-top: -36%;
-        margin-right: 0%
-    }
-
-    .myLogo img{
-        width: 100%;
-        height: inherit;
-    
-    }
 
     .HomeNav{
-    margin-top: 106%;
-    margin-left: 5%;
+    margin-top: 118%;
     }
     .HomeNav a{
         font-size: 5vw;
@@ -227,7 +226,7 @@ nav a{
 
     .HomeLogo img{
     width: 66vw;
-    margin-top: 45%;
+    margin-top: 43%;
     margin-left: 17%;
     }
     .myVideo {
@@ -311,29 +310,29 @@ nav a{
 
 
 @media screen and (max-width:1024px)and (min-width:720px){
-    nav{
-        height: 16vw;  
-    }
-
-    nav li{
-        display: none;
-    }
-
-    .myLogo{
-        margin-top: -36%;
-        margin-right: 0%
-    }
-
-    .myLogo img{
-        width: 100%;
-        height: inherit;
     
-    }
+   nav{  
+      height: 18vw;
+  }
+
+  nav li{
+     display: none;
+  }
+
+  .myLogo{
+   margin-top: 2%;
+   margin-left: 20%;
+
+  }
+
+  .myLogo img{
+   width: 50vw;
+  
+  }
 
     
     .HomeNav{
-        margin-top: 83%;
-        margin-left: 5%;
+        margin-top: 95%;
         }
         .HomeNav a{
             font-size: 5vw;
@@ -342,7 +341,7 @@ nav a{
     
         .HomeLogo img{
         width: 66vw;
-        margin-top: 30%;
+        margin-top: 24%;
         margin-left: 17%;
         }
         .myVideo {

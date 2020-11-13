@@ -36,34 +36,20 @@
     font-family: 'Anton', sans-serif;
     position: absolute;
  }
- @media screen and (max-width:720px){
+ @media screen and (max-width:1024px){
 
     .PLinkImgs{
-        margin-top: 22%; 
+        margin-top: 29%; 
      }
 
      .PLinkImgs img{
-        width: 90vw;
-        height: 130vw;
+      width: 60vw;
+      height: 100vw;
    }
    .Plink-Headers{
-    font-size: 14vw;
+    font-size: 11vw;
  }
 
 }
-@media screen and (max-width:1024px) and (min-width:720px){
 
-    .PLinkImgs{
-        margin-top: 22%;
-     }
-
-     .PLinkImgs img{
-        width: 90vw;
-        height: 130vw;
-   }
-   .Plink-Headers{
-    font-size: 14vw;
- }
-
-}
 
