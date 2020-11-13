@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.twoDP{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.twoDP h1{
+   
+    color: red;
+    font-size: 9vw;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+}
+
+.twoDP img{
+    transition: transform .2s;
+    width: 46vw;
+    border-radius: 10px;
+    
+}
+
+.twoDP img:hover{
+    transform: scale(1.1);
+}
+
+/*2D video and text*/
+.twoDContent video{
+    width: 57vw;
+    border-radius: 67px;
+}
+
+.twoDHeaders{
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 39%;
+    position: absolute;
+    font-family: 'Mirza', cursive;
+}
+
+.twoDCap{
+    color: white;
+    font-size: 2vw;
+    margin-top: 41%;
+    position: absolute;
+    text-align: center;
+}
+
+@media screen and (max-width:720px){
+ 
+
+    .twoDP{ 
+        margin-top:20%;
+    }
+    .twoDP h1{
+
+        font-size: 14vw;
+      
+    }
+    
+    .twoDP img{
+        width: 95vw;
+        border-radius: 6px;
+        
+    }
+    
+    .twoDContent video{
+        width: 100vw;
+        border-radius: 10px;
+    }
+    
+    .twoDHeaders{
+        font-size: 10vw;
+        margin-bottom: 119%;
+    }
+    
+    .twoDCap{
+        
+    font-size: 4vw;
+    margin-top: 105%;
+    }
+  
+
+}
+
+@media screen and (max-width:1024px) and (min-width:720px){
+
+    .twoDP{ 
+        margin-top:20%;
+    }
+    .twoDP h1{
+
+        font-size: 14vw;
+      
+    }
+    
+    .twoDP img{
+        width: 95vw;
+        border-radius: 6px;
+        
+    }
+
+    .twoDContent video{
+        width: 100vw;
+        border-radius: 10px;
+    
+    }
+    .twoDHeaders{
+        font-size: 10vw;
+        margin-bottom: 110%;
+    }
+    .twoDCap{
+
+    font-size: 4vw;
+    margin-top: 90%
+        
+    }
+
+}

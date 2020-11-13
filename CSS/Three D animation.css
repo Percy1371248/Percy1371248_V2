@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* //3D ,2D Animation, Ilustration and blog Header sections CSS//*/  
+
+ .threeDP{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*PAGE HEADINGS CSS*/
+.threeDP h1{
+    color: white;
+    font-size: 9vw;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+   
+}
+
+/* //HEAD PAGE IMAGES CSS//*/
+ 
+.threeDP img{
+    transition: transform .2s;
+    width: 36vw;
+    border-radius: 10px;
+    
+}
+.threeDP img:hover{
+    transform: scale(1.1);
+}
+
+/*3D video and text*/
+.threeDContent video{
+    width: 57vw;
+    border-radius: 67px;
+
+}
+.threeDHeaders{
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 39%;
+    position: absolute;
+    font-family: 'Mirza', cursive;
+}
+.threeDCap{
+    color: white;
+    font-size: 2vw;
+    margin-top: 41%;
+    position: absolute;
+    text-align: center;
+}
+@media screen and (max-width:720px){
+    .threeDP{
+
+        margin-top:20%;
+    }
+    
+    
+    .threeDP h1{
+       
+        font-size:14vw;
+    }
+    
+     
+    .threeDP img{
+        width: 95vw;
+        border-radius: 6px;
+        
+    }
+
+    .threeDContent video{
+        width: 100vw;
+        border-radius: 10px;
+    
+    }
+    .threeDHeaders{
+        font-size: 10vw;
+        margin-bottom: 119%;
+    }
+    .threeDCap{
+
+    font-size: 4vw;
+    margin-top: 105%;
+        
+    }
+
+  
+
+}
+@media screen and (max-width:1024px) and (min-width:720px){
+
+    .threeDP{
+
+        margin-top:20%;
+    }
+    
+    
+    .threeDP h1{
+       
+        font-size:14vw;
+    }
+    
+     
+    .threeDP img{
+        width: 50vw;
+        border-radius: 6px;
+        
+    }
+
+    .threeDContent video{
+        width: 100vw;
+        border-radius: 10px;
+    
+    }
+    .threeDHeaders{
+        font-size: 10vw;
+        margin-bottom: 110%;
+    }
+    .threeDCap{
+
+    font-size: 4vw;
+    margin-top: 90%
+        
+    }
+
+}

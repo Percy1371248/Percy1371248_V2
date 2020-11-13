@@ -30,8 +30,6 @@ function topFunction() {
 
 
 
-
-
 //Gallery Tab
 function myFunction(imgs) {
   // Get the expanded image

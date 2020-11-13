@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.illustrationP{
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vw;
+    
+}
+.illustrationP h1{
+
+    color: white;
+    font-size: 9vw;
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+}
+
+.illustrationP img{
+
+    width: 100%;
+    height: 100%;
+}
+
+/*Illustration*/
+
+.column {
+     float: left;
+    padding: 2.2vw;
+}
+
+.column img {
+  transition: transform .2s;
+    cursor: pointer;
+    width: 20vw;
+    height: 30vw;
+    border-radius: 10px; 
+}
+
+.column img:hover {
+   transform: scale(1.1);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background-color: #000000e3;
+    z-index: 5;
+    display: none;
+    border-radius: 60px;
+}
+
+#expandedImg{
+    width: 30vw;
+    height: 40vw;
+    margin-left: 22%;
+    margin-top: 13%;
+}
+
+#imgtext {
+   position: absolute;
+    bottom: 1%;
+    margin-left: 36%;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.closebtn {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 89%;
+    color: #fa0000;
+    font-size: 7vw;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px){
+
+    .column {
+        float: none;
+   }
+   
+   .column img {
+       width: 88vw;
+       height: 136vw;;
+       border-radius: 10px; 
+   }
+ 
+    .illustrationP h1{
+    
+        font-size: 14vw;
+    }
+    
+    .illustrationP img{
+    
+        margin-top: -77%;
+        width: 100vw;
+        height: 100vw;
+    }
+  
+
+}
+
+@media screen and (max-width:1024px) and (min-width:720px){
+    .illustrationP{
+   margin-top: 10%;
+        
+    }
+    .illustrationP h1{
+    
+        font-size: 14vw;
+    }
+    
+    .illustrationP img{
+    
+        margin-top: -77%;
+        width: 100vw;
+        height: 100vw;
+    }
+    .column {
+        float: none;
+   }
+   
+   .column img {
+       width: 88vw;
+       height: 136vw;;
+       border-radius: 10px; 
+   }
+
+}
