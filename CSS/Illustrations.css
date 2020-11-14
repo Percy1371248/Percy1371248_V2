@@ -37,7 +37,6 @@
 }
 
 .column {
-     float: left;
     padding: 2.2vw;
 }
 
@@ -101,11 +100,15 @@
         width: 100vw;
         height: 100vw;
     }
-
+    .column img {   
+        width: 38vw;
+        height: 58vw;
+       }
     #expandedImg {
         width: 84vw;
         height: 133vw;
     }
+    
     #imgtext {
         margin-left: 26%;
         font-size: 6vw;
