@@ -43,3 +43,13 @@ function myFunction(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
+
+//History Functions
+backButton.addEventListener("click", BackFunction);
+function BackFunction() {
+  history.back();
+}
+forwardButton.addEventListener("click", ForwardFuction);
+function ForwardFuction() {
+  history.forward();
+}
