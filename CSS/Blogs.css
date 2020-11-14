@@ -16,28 +16,32 @@
 
 /*Blog Header page*/
 .mBlog li{
-    margin-top: 7%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }
 
 .mBlog a{
-    display: block;
     background-color: #ff00d1;
-    font-size: 2rem;
+    font-size: 2vw;
     color: white;
     text-align: center;
-    padding: 1rem 4rem;
+    padding: 2vw 4vw;
     text-decoration: none;
     border-radius: 23px;
-    width: 100%;
-    height: 5rem;
+    width: 35%;
     margin-top: 3%;
+    margin-left: 2%;
     transition: 0.5s ease;
 }
 .mBlogH{
     position: absolute;
     font-size: 4vw;
     color: white;
-    margin-bottom: 46%;
+    margin-top: -36%;
+
 }
 
 .mBlog a:hover{
@@ -130,24 +134,24 @@ margin-top: 2%;
         }
 
         .mBlog li{
-            margin-top: 12%;
+            margin-top: 15%;
         }
         
         .mBlog a{
-           
+        
             font-size: 5vw;
-            padding: 1rem 1rem;
-            width: 100%;
-            height: 4rem;
-            margin-top: 3%;
+            width: 72%;
+            margin-top: 5%;
         }
-        
         .mBlogH{
-            font-size: 8vw;
-            margin-bottom: 154%;
+            font-size: 9vw;
+            margin-top: -108%;
         }
         
-}
+        }
+
+        
+        
 
 @media screen and (max-width:1024px) and (min-width:720px){
 
@@ -188,21 +192,18 @@ margin-top: 2%;
         }
 
         .mBlog li{
-            margin-top: 12%;
+            margin-top: 27%;
         }
         
         .mBlog a{
-           
-            font-size: 5vw;
-            padding: 1rem 1rem;
-            width: 100%;
-            height: 4rem;
-            margin-top: 3%;
-        }
         
+            font-size: 5vw;
+            width: 72%;
+            margin-top: 5%;
+        }
         .mBlogH{
-            font-size: 8vw;
-            margin-bottom: 80%;
+            font-size: 9vw;
+            margin-top: -97%;
         }
 
 }
