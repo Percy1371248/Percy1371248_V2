@@ -239,7 +239,7 @@ nav li a{
       }
   /* Mobile Menu*/
   #menu{
-   width: 6vw;
+   width: 9vw;
    margin-left: 88%;
    margin-top: 7%;
    position: fixed;
@@ -276,19 +276,18 @@ nav li a{
 
 .Mobilenav li{
    list-style: none;
-   padding: 12vw 0;
+   padding: 25vw 0;
 }
 
 .Mobilenav{
    transition: 0.3s ease;
    position: fixed;
-   margin-left: 81%;
+   margin-left: 68%;
    margin-top: 15%;
    background-color: black;
-   width: 19vw;
-   height: 146vw;
+   width: 36vw;
+   height: 163vw;
    text-align: center;
-   border-radius: 10px;
    z-index: 20;
 }
 
@@ -313,7 +312,7 @@ nav li a{
 
 
 @media screen and (max-width:1024px)and (min-width:720px){
-   
+
    .HomeP{
       background: radial-gradient( #641468, black);
    }
