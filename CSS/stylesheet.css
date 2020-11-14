@@ -37,6 +37,7 @@ html {
 }
 
 .HomeNav a:hover{
+
     transform: scale(1.1);
     color: #ff3dbe;
     
@@ -178,8 +179,6 @@ nav li a{
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-
-
 }
 
 
@@ -196,6 +195,10 @@ nav li a{
 
 /*// Media query 1 Tablet//*/
 @media screen and (max-width:720px){
+
+   .HomeP{
+      background: radial-gradient( #641468, black);
+   }
    nav{  
       height: 18vw;
   }
@@ -310,6 +313,10 @@ nav li a{
 
 
 @media screen and (max-width:1024px)and (min-width:720px){
+   
+   .HomeP{
+      background: radial-gradient( #641468, black);
+   }
     
    nav{  
       height: 18vw;
