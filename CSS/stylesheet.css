@@ -350,6 +350,15 @@ nav li a{
    display: block;
 }
  /* Mobile Menu*/
+ 
+.back-button button {
+  display: none;
+ }
+ 
+ .forward-button button {
+   display: none;
+ }
+
 
 }
 
@@ -470,6 +479,13 @@ nav li a{
    display: block;
 }
  /* Mobile Menu*/
+ .back-button button {
+   display: none;
+  }
+  
+  .forward-button button {
+    display: none;
+  }
 
 }
 

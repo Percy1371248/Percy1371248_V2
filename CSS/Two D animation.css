@@ -23,6 +23,7 @@
     transition: transform .2s;
     width: 46vw;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     
 }
 
@@ -34,6 +35,7 @@
 .twoDContent video{
     width: 57vw;
     border-radius: 67px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
 .twoDHeaders{

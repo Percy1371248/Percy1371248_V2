@@ -17,6 +17,7 @@
     justify-content: center;
     transition: 0.5s ease;
     padding: 1vw 3vw;  
+   
  }
 
 .PLinkImgs:hover {
@@ -27,6 +28,7 @@
      width: 25vw;
      height: 38vw;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
  .Plink-Headers{

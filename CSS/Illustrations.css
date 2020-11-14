@@ -25,6 +25,7 @@
 
     width: 100%;
     height: 100%;
+    
 }
 
 /*Illustration*/
@@ -46,6 +47,7 @@
     width: 20vw;
     height: 30vw;
     border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
 .column img:hover {
@@ -62,26 +64,33 @@
     position: absolute;
     z-index: 5;
     display: none;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ad;
 }
 
 #expandedImg{
     width: 30vw;
     height: 40vw;
+    margin-top: 6%;
+    margin-left: 34%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     
 }
 
 #imgtext {
    position: absolute;
-    bottom: 1%;
-    margin-left: 27%;
+   bottom: 6%;
+   margin-left: 65%;
     color: white;
     font-size: 2vw;
 }
 
 .closebtn {
     position: absolute;
-    margin-top: -7%;
-    margin-left: 101%;
+    margin-top: 4%;
+    margin-left: 66%;
     color: #fa0000;
     font-size: 5vw;
     cursor: pointer;
@@ -103,20 +112,29 @@
     .column img {   
         width: 38vw;
         height: 58vw;
+
        }
     #expandedImg {
         width: 84vw;
         height: 133vw;
+        margin-left: 7%;
     }
     
     #imgtext {
-        margin-left: 26%;
+        margin-left: 29%;
         font-size: 6vw;
+        margin-bottom: -3%;
     }
 
     .closebtn {
+        margin-top: -5%;
+        margin-left: 92%;
         font-size: 12vw;  
     }
+    .container {
+        height: 85%;
+    }
+
 
 }
 
@@ -141,17 +159,27 @@
         width: 38vw;
         height: 58vw;
        }
+
     #expandedImg {
-        width: 80vw;
-        height: 117vw;
+    width: 70vw;
+    height: 107vw;
+    margin-left: 14%;
+    margin-top: 0%;
     }
+    
     #imgtext {
-        margin-left: 26%;
+        margin-left: 29%;
         font-size: 6vw;
+        margin-bottom: 12%;
     }
 
     .closebtn {
+        margin-top: -5%;
+        margin-left: 85%;
         font-size: 12vw;  
+    }
+    .container {
+        height: 100%;
     }
 
 

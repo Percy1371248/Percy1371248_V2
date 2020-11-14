@@ -1,3 +1,7 @@
+var backButton = document.querySelector(".back-button");
+var forwardButton = document.querySelector(".forward-button");
+
+
 function onClickMenu(){
 	document.getElementById("menu").classList.toggle("change");
 	document.getElementById("Mobilenav").classList.toggle("change");
