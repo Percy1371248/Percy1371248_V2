@@ -1,17 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .BlogPage{
-    
     margin-top: 6%;
     width: 76vw;
     height: inherit;
     background-color: black;
     border-radius: 10px;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 /*Blog Header page*/
@@ -49,7 +42,7 @@
 
 }
 
-/* //BLOG and wireframe PAGES content CSS//*/
+/* //Blogs and wireframe PAGES content CSS//*/
 .blogHeader{
     color: rgb(255, 255, 255);
     margin-top: 1%;
@@ -64,7 +57,6 @@
     font-size: 1.5vw;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .blogHeader2{

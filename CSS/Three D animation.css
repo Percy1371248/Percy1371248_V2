@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* //3D ,2D Animation, Ilustration and blog Header sections CSS//*/  
-
- .threeDP{
+.threeDP{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

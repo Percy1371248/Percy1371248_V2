@@ -1,19 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .twoDP{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-  
-
 }
+
 .twoDP h1{
    
-    color: red;
+    color: white;
     font-size: 9vw;
     font-family: 'Anton', sans-serif;
     position: absolute;

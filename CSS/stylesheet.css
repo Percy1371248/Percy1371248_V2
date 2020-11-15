@@ -352,6 +352,11 @@ nav li a{
    display: none;
  }
 
+ #myTbtn {
+   font-size: 3vw;
+   padding: 2vw;
+ }
+
 
 }
 
@@ -479,5 +484,8 @@ nav li a{
  #myForward{
     display: none;
   }
-
+  #myTbtn {
+   font-size: 3vw;
+   padding: 2vw;
+ }
 }
