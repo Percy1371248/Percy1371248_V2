@@ -154,15 +154,15 @@ nav li a{
         position: fixed;
         bottom: 2vw;
         right: 3vw;
-        z-index: 99;
-        font-size: 18px;
+        z-index: 20;
+        font-size: 2vw;
         border: none;
         outline: none;
-        background-color: red;
+        background-color: #55075f;
         color: white;
         cursor: pointer;
-        padding: 2vw;
-        border-radius: 27px;
+        padding: 1vw;
+        border-radius: 23px;
       }
       
       #myTbtn:hover {
@@ -192,7 +192,7 @@ nav li a{
 /* //PAGE SECTIONS//*/  
   
 
-.back-button button {
+#myBack{
    position: fixed;
    top: 1%;
    left: 20%;
@@ -200,20 +200,17 @@ nav li a{
    height: 3vw;
    font-size: 2vw;
    cursor: pointer;
-   transition-duration: 0.2s;
-   transition-timing-function: ease-in-out;
-   transition-property: background-color, color;
    border: none;
    outline: none;
    color: white;
    background-color: inherit;
    border-radius: 50px;
  }
- .back-button button:hover {
+ #myBack:hover {
    background-color: #641468;
  
  }
- .forward-button button {
+ #myForward{
    position: fixed;
    top: 1%;
    left: 23%;
@@ -221,22 +218,18 @@ nav li a{
    height: 3vw;
    font-size: 2vw;
    cursor: pointer;
-   transition-duration: 0.2s;
-   transition-timing-function: ease-in-out;
-   transition-property: background-color, color;
    border: none;
    outline: none;
    color: white;
    background-color: inherit;
    border-radius: 50px;
  }
- .forward-button button:hover {
+ #myForward:hover {
    background-color: #641468;
   
  }
 
 
-/*// Media query 1 Tablet//*/
 @media screen and (max-width:720px){
 
    .HomeP{
@@ -351,11 +344,11 @@ nav li a{
 }
  /* Mobile Menu*/
  
-.back-button button {
+#myBack{
   display: none;
  }
  
- .forward-button button {
+#myForward{
    display: none;
  }
 
@@ -479,14 +472,12 @@ nav li a{
    display: block;
 }
  /* Mobile Menu*/
- .back-button button {
+ #myBack{
    display: none;
   }
   
-  .forward-button button {
+ #myForward{
     display: none;
   }
 
 }
-
-/* //End of Media query 1 Tablet//*/

@@ -17,11 +17,13 @@
     justify-content: center;
     transition: 0.5s ease;
     padding: 1vw 3vw;  
+    
    
  }
 
 .PLinkImgs:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+
 
 } 
 .PLinkImgs img{

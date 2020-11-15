@@ -1,6 +1,13 @@
-var backButton = document.querySelector(".back-button");
-var forwardButton = document.querySelector(".forward-button");
 
+function BackFunction() {
+  document.getElementById("myBack");
+  window.history.back();
+}
+
+function ForwardFunction() {
+  document.getElementById("myFoward");
+ window.history.forward();
+}
 
 function onClickMenu(){
 	document.getElementById("menu").classList.toggle("change");
@@ -48,12 +55,7 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 
-//History Functions
-backButton.addEventListener("click", BackFunction);
-function BackFunction() {
-  history.back();
-}
-forwardButton.addEventListener("click", ForwardFuction);
-function ForwardFuction() {
-  history.forward();
-}
+
+
+
+
