@@ -5,7 +5,6 @@
     justify-content: center;
     width: 30vw;
     height: 40vw;
-    background-color: #ff3dbe; 
 }
 
 .aboutMe{
@@ -42,7 +41,7 @@
     font-size: 2vw;
     color: white;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
  }
 
  .myDetails p{
@@ -52,9 +51,9 @@
     margin: 3% 1% 1% 1%;
  }
  .instaLink i{
-     font-size: 2vw;
+     font-size: 5vw;
      color: red;
-     margin-left: 45%;
+     margin-left: 40%;
  }
 
 
@@ -87,10 +86,7 @@
         line-height: 1.5;
         font-family: 'Montserrat', sans-serif;
     }
-    .aboutP img{
-    margin-top: -6%;
-      
-    }
+
     .myDetails h2{
         font-size: 5vw;
      }
@@ -99,7 +95,7 @@
      }
 
      .instaLink i{
-        font-size: 6vw;
+        font-size: 9vw;
        
     }
 
