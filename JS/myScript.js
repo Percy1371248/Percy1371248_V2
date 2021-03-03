@@ -1,13 +1,3 @@
-//back and forward functions
-function BackFunction() {
-  document.getElementById("myBack");
-  window.history.back();
-}
-
-function ForwardFunction() {
-  document.getElementById("myFoward");
- window.history.forward();
-}
 
 //Mobile Menu Navigation
 function onClickMenu(){
