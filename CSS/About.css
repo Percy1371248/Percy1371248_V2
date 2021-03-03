@@ -10,7 +10,6 @@
 .aboutMe{
     background-color: black;
     width: 62vw;
-    height: 61vw;
     margin-top: 6%;
     margin-left: 3%;
 }
@@ -46,8 +45,21 @@
  .instaLink i{
      font-size: 5vw;
      color: red;
-     margin-left: 40%;
+     margin-left: 17%;
  }
+ .Linkin i{
+    font-size: 5vw;
+    color: red;
+    margin-left: 5%;
+}
+.CVlink{
+    font-size: 5vw;
+    color: red;
+    margin-left: 5%;
+    border-radius:50px;
+    text-decoration: none;
+    font-weight: bolder;
+}
 
 
 @media screen and (max-width:1024px){
@@ -90,6 +102,12 @@
      .instaLink i{
         font-size: 9vw;
        
+    }
+    .Linkin i{
+        font-size: 9vw;
+    }
+    .CVlink{
+        font-size: 9vw;
     }
 
 }
