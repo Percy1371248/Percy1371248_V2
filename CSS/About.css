@@ -15,15 +15,6 @@
     margin-left: 3%;
 }
 
-.aboutP h1{
-    color: white;
-    font-size: 6vw;
-    margin-top: -8%;
-    position: absolute;
-    font-family: 'Anton', sans-serif;
-}
-
-
 .aboutmePa{
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -35,6 +26,8 @@
 
 .aboutP img{
     width: 100%;
+    height: 100%;
+    margin-top: -15%;
 }
 
  .myDetails h2{
@@ -69,7 +62,7 @@
     .aboutMe{
         width: 90vw;
         height: initial;
-        margin-top: 34%;
+        margin-top: 29%;
         margin-left: 0%;
     
     
